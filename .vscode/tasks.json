@@ -1,6 +1,14 @@
 {
     "version": "2.0.0",
     "tasks": [
+	{
+            "type": "npm",
+            "script": "serve",
+            "group": "build",
+            "problemMatcher": [],
+            "label": "npm: serve",
+            "detail": "webpack serve"
+        },
         {
             "type": "npm",
             "script": "build and watch",
